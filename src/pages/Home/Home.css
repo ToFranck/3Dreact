@@ -1,0 +1,12 @@
+
+
+
+video {
+    position: fixed;
+    width: 100%;
+    z-index: -1;
+}
+
+h1 {
+    color: aliceblue;
+}

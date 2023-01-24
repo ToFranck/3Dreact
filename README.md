@@ -1,3 +1,12 @@
+
+npm i 
+npm install @react-three/fiber
+npm install @react-three/drei 
+
+
+<!-- npm install -g gltfjsx
+gltfjsx public/CD/scene.gltf -r public -->
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
