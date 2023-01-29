@@ -1,4 +1,8 @@
 
+.head{
+    padding-top: 20px;
+}
+
 video {
     position: fixed;
     width: 100%;
@@ -6,24 +10,24 @@ video {
     z-index: -1;
 }
 
-.container {
+.content {
     display: flex;
 }
 
 .left{
     flex: 1;
-    background-color: #f1f1f1;
+    border: red solid 1px;
     padding: 20px;
 }
 
 .right{
     flex: 1;
-    background-color: #f1f1f1;
+    border: blue solid 1px;
     padding: 20px;
 }
 
 @media (max-width: 768px) {
-    .container {
+    .content {
         flex-direction: column;
     }
 }
