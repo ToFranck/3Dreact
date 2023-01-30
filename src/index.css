@@ -14,7 +14,8 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* background-color: #101010; */
+  background-color: #202020;
+  /* background-color: rgb(208, 255, 255); */
   color: #7DE2D1;
 
 }
