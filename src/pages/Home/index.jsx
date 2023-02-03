@@ -1,15 +1,15 @@
 import React from "react";
 // import backgroundvideo from "../../assets/backgroundvideo.mp4";
 import "./Home.css";
-import Navbar from "../../components/Navbar/Navbar";
+// import Navbar from "../../components/Navbar/Navbar";
 import { Canvas } from "@react-three/fiber";
 import { Stage, PresentationControls } from "@react-three/drei";
-import Model from "../../components/Model";
+import Model from "../../components/model3d/Model";
 
 export default function Home() {
   return (
-    <div>
-      <Navbar />
+    <div className="root">
+      {/* <Navbar /> */}
       <div className="head">
         {/* <video autoPlay loop muted>
           <source src={backgroundvideo} type="video/mp4" />

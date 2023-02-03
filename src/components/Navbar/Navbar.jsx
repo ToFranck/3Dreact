@@ -1,5 +1,7 @@
 import React from 'react'
-import "./Navbar.css"   
+import "./Navbar.css" 
+import {Link} from "react-router-dom";  
+
 // import {
 //         //BrowserRouter 
 //         // as Router, 
@@ -17,7 +19,11 @@ export default function Navbar() {
 
   return (
     <div className='nav'>
-      RAV
+      <Link to="/">RAV</Link>
+      <Link to="/artists">Artists</Link>
+      <Link to="/albums">Albums</Link>
+
+      {/* <Route path="/commerces/:id" element={<PCommerce/>} /> */}
     </div>
   )
 }

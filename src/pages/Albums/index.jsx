@@ -1,8 +1,7 @@
-import { MongoClient } from "mongodb";
+import React from 'react'
 
-// export type Album = {
-//     id: string;
-//     name: string;
-//     artiste: string;
-// };
-
+export default function Albums() {
+  return (
+    <div>Albums</div>
+  )
+}
