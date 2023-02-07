@@ -9,7 +9,7 @@ import {
 import Home from './pages/Home/index';
 import Artists from './pages/Artists/index';
 import Albums from './pages/Albums/index';
-import Navbar from './components/Navbar/Navbar';
+import Navbar from './components/navbar/Navbar';
 
 
 function App() {

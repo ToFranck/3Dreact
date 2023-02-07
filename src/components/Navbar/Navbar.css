@@ -5,7 +5,7 @@ header {
 	justify-content: space-between;
 	height: 80px;
 	padding: 0 2rem;
-  background-color: #282c34;
+  	background-color: #282c34;
 
 	
 }
@@ -16,13 +16,13 @@ h2,nav svg, svg {
 
 nav .links {
 	margin: 0 1rem;
-  background-color: #282c34;
+  	background-color: #282c34;
 	text-decoration: none!important;
 }
 
-nav .links:hover {
-	color: var(--secondaryColor);
-}
+/* nav .links:hover {
+	
+} */
 
 header .nav-btn {
 	padding: 5px;
@@ -40,6 +40,7 @@ header div,
 nav {
 	display: flex;
 	align-items: center;
+	background-color: #282c34;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -59,10 +60,10 @@ nav {
 		align-items: center;
 		justify-content: center;
 		gap: 1.5rem;
-    background-color: #282c34;
+    	background-color: #282c34;
 		transition: 1s;
 		transform: translateY(-100vh);
-    z-index: 1;
+    	z-index: 1;
 	}
 
 	header .responsive_nav {
