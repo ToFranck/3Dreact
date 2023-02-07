@@ -11,9 +11,11 @@ export default function Model(props) {
             if (!ref.current) {
                 return;
             }
-            //ref.current.rotation.x += 0.01;
-            // ref.current.rotation.y += 0.01;
-            //ref.current.rotation.z += 0.01;
+            // ref.current.rotation.x += 0.01;
+            ref.current.rotation.y += 0.01;
+            // ref.current.rotation.z += 0.01;
+            
+          
             
         });
 

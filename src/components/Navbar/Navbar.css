@@ -20,9 +20,9 @@ nav .links {
 	text-decoration: none!important;
 }
 
-/* nav .links:hover {
-	
-} */
+nav .links:hover {
+	color: blueviolet;
+}
 
 header .nav-btn {
 	padding: 5px;

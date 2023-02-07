@@ -16,7 +16,7 @@ export default function Home() {
 
         <Canvas
           dpr={[1, 2]}
-          camera={{ fov: 80 }}
+          camera={{ fov: 40 }}
           style={{ width: "300px", height: "400px", margin: "20px auto 0 auto" }}
         >
           {/* <color attach="background" args={['#101010']} /> */}
@@ -25,6 +25,7 @@ export default function Home() {
             global
             zoom={1}
             polar={[-0.1, Math.PI / 4]}
+            
           >
             <Stage environment={null}>
               <Model scale={0.01} />
