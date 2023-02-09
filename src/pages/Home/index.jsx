@@ -28,12 +28,24 @@ export default function Home() {
           </PresentationControls>
         </Canvas> */}
 
+<h2 className="first_title">Découvre nos artistes </h2>
         <p className="txt_1">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
           praesentium libero maiores quo saepe sit, natus eum eius ipsam
           explicabo fuga porro minima officia sunt commodi reprehenderit labore
           quaerat laudantium.
         </p>
+        <h2 className="second_title">Découvre nos artistes </h2>
+        <p className="txt_2">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
+          praesentium libero maiores quo saepe sit, natus eum eius ipsam
+          explicabo fuga porro minima officia sunt commodi reprehenderit labore
+          quaerat laudantium.
+        </p>
+
+       
+
+
         <h2 className="title">Découvre nos artistes </h2>
 
         <div className="artist_list">

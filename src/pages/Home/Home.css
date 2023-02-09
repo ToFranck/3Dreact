@@ -6,15 +6,37 @@
     z-index: -2;
 } */
 
+
+
+.title {
+  margin-top: 50px;
+  background-color: #202020 !important;
+}
+
+.first_title{
+  
+  margin: 30px 20px 20px 20px;
+  background-color: #202020 !important;
+  text-align: left;
+}
+
 .txt_1 {
   margin: 10px;
   text-align: left;
   font-style: italic;
 }
 
-.title {
-  margin-top: 50px;
+.second_title{
+
+  margin: 50px 20px 20px 20px;
   background-color: #202020 !important;
+  text-align: right;
+}
+
+.txt_2 {
+  margin: 10px;
+  text-align: right;
+  font-style: italic;
 }
 
 .artist_list {
