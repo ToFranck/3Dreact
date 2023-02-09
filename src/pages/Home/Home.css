@@ -1,43 +1,57 @@
+.main {
+  margin-top: 50px;
+}
 
-
-Canvas {
+/* Canvas {
     z-index: -2;
+} */
+
+.txt_1 {
+  margin: 10px;
+  text-align: left;
+  font-style: italic;
 }
+
 .title {
-    background-color: #202020 !important;
-    
+  margin-top: 50px;
+  background-color: #202020 !important;
 }
 
-/* video {
-    position: fixed;
-    width: 100%;
-    height: auto;
-    z-index: -1;
-} */
-
-/* .content {
-    display: flex;
+.artist_list {
+  display: flex;
+  height: 200px;
+  margin: 30px 20px 20px 20px;
+  overflow-y: hidden;
 }
 
-.left{
-    flex: 1;
-    border: red solid 1px;
-    padding: 20px;
+.card {
+  width: 130px;
+  height: 200px;
 }
 
-.right{
-    flex: 1;
-    border: blue solid 1px;
-    padding: 20px;
- 
-} */
+.card_body {
+  width: 100px;
+  margin: 0 auto 0 auto;
+  word-wrap: break-word;
+}
+
+.card h3 {
+  font-size: 15px;
+}
+
+.card img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 100%;
+  margin: 5px;
+}
 
 @media (max-width: 768px) {
-    /* .content {
+  /* .content {
         flex-direction: column;
     } */
-
-
 }
 
 /* @media (max-aspect-ratio: 16/9) {
