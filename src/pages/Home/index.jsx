@@ -12,30 +12,30 @@ export default function Home() {
         {/* <Canvas
           dpr={[1, 2]}
           camera={{ fov: 40 }}
-          style={{ width: "390px", height: "400px", margin: "20px auto 0 auto" }}
+          style={{ width: "300px", height: "400px", margin: "20px auto 0 auto" }}
         >
           
           <PresentationControls
             speed={2}
             global
-            zoom={1}
+            zoom={0.01}
             polar={[-0.1, Math.PI / 4]}
             
           >
             <Stage environment={null}>
-              <Model scale={0.01} />
+              <Model scale={0.001} />
             </Stage>
           </PresentationControls>
         </Canvas> */}
 
-<h2 className="first_title">Découvre nos artistes </h2>
+<h2 className="first_title">Premier Titre</h2>
         <p className="txt_1">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
           praesentium libero maiores quo saepe sit, natus eum eius ipsam
           explicabo fuga porro minima officia sunt commodi reprehenderit labore
           quaerat laudantium.
         </p>
-        <h2 className="second_title">Découvre nos artistes </h2>
+        <h2 className="second_title">Second Titre  </h2>
         <p className="txt_2">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
           praesentium libero maiores quo saepe sit, natus eum eius ipsam
@@ -43,6 +43,9 @@ export default function Home() {
           quaerat laudantium.
         </p>
 
+{/* 
+        <img src="https://cdn-icons-png.flaticon.com/512/5046/5046950.png
+        " className="logo" alt="" /> */}
        
 
 
