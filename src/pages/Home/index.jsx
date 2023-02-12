@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 // import { Canvas } from "@react-three/fiber";
 // import { Stage, PresentationControls } from "@react-three/drei";
 // import Model from "../../components/model3d/Model";
-
+import Api from "../../data/Api";
 export default function Home() {
   return (
     <div className="root">
@@ -27,6 +27,8 @@ export default function Home() {
             </Stage>
           </PresentationControls>
         </Canvas> */}
+
+        <Api />
 
 <h2 className="first_title">Premier Titre</h2>
         <p className="txt_1">
