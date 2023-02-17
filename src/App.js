@@ -10,6 +10,7 @@ import Home from './pages/Home/index';
 import Artists from './pages/Artists/index';
 import Albums from './pages/Albums/index';
 import Navbar from './components/navbar/Navbar';
+import ArtistDetails from './pages/ArtistDetails/index';
 
 
 function App() {
@@ -20,7 +21,10 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/artists" element={<Artists />} />
+        <Route path="/artists/:id" element={<ArtistDetails />} />
+
         <Route path="/albums" element={<Albums />} />
+
 
         <Route path="*" element={<p>There's nothing here: 404!</p>} />
       </Routes>
