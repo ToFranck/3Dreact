@@ -21,9 +21,11 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: #202020;
+  /* background-color: #202020; */
+  background-color: #0D1114;
+  color: rgb(255, 255, 255);
   /* color: #7cd4fd; */
-  color: #2d84ac;
+  /* color: #2d84ac; */
 
 }
 
@@ -32,6 +34,6 @@ code {
     monospace;
 }
 
-a {
+/* a {
   background: none !important;
-}
+} */

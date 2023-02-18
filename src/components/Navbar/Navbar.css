@@ -5,23 +5,33 @@ header {
 	justify-content: space-between;
 	height: 80px;
 	padding: 0 2rem;
-  	background-color: #282c34;
+  	background-color: rgb(32, 35, 38);
 
 	
 }
 
-h2,nav svg, svg {
-  background-color: #282c34;
+nav {
+	background-color: rgb(32, 35, 38);
+}
+
+/* nav h2, nav svg, svg {
+  
+	background-color: rgb(32, 35, 38);
+} */
+
+header h2, header svg, svg {
+  background-color: rgb(32, 35, 38);
 }
 
 nav .links {
 	margin: 0 1rem;
-  	background-color: #282c34;
+  	/* background-color: rgb(32, 35, 38); */
+	  background-color: rgb(32, 35, 38);
 	text-decoration: none!important;
 }
 
 nav .links:hover {
-	color: blueviolet;
+	color: rgb(158, 223, 255);
 }
 
 header .nav-btn {
@@ -40,7 +50,7 @@ header div,
 nav {
 	display: flex;
 	align-items: center;
-	background-color: #282c34;
+	/* background-color: rgb(32, 35, 38); */
 }
 
 @media only screen and (max-width: 1024px) {
@@ -60,7 +70,7 @@ nav {
 		align-items: center;
 		justify-content: center;
 		gap: 1.5rem;
-    	background-color: #282c34;
+    	/* background-color: rgb(32, 35, 38); */
 		transition: 1s;
 		transform: translateY(-100vh);
     	z-index: 1;

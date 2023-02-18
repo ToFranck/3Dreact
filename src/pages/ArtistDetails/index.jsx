@@ -42,7 +42,7 @@ export default function ArtistDetails() {
   const [artist, setArtist] = useState(null);
 
   useEffect(() => {
-    axios.get(`http://localhost:3000/api/artists/${id}`)
+    axios.get(`http://localhost:3001/api/artists/${id}`)
       .then(res => {
         setArtist(res.data.artist);
         console.log(res.data.artist);

@@ -11,13 +11,13 @@
 
 .title {
   margin-top: 50px;
-  background-color: #202020 !important;
+  /* background-color: #202020 !important; */
 }
 
 .first_title{
   
   margin: 30px 20px 20px 20px;
-  background-color: #202020 !important;
+  /* background-color: #202020 !important; */
   text-align: left;
 }
 
@@ -30,7 +30,7 @@
 .second_title{
 
   margin: 50px 20px 20px 20px;
-  background-color: #202020 !important;
+  /* background-color: #202020 !important; */
   text-align: right;
 }
 

@@ -7,7 +7,7 @@ export default function Api() {
 
   useEffect(() => {
     axios
-      .get("http://localhost:3000/api/artists")
+      .get("http://localhost:3001/api/artists")
       .then((res) => {
         setDatas(res.data.artists);
       })
